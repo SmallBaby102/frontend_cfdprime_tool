@@ -21,7 +21,7 @@ export default function Home() {
     const [errorAmount, setErrorAmount] = useState("");
     const [loading, setLoading] = useState(false);
     const [address, setAddress] = useState('');
-    const [amount, setAmount] = useState(0);
+    const [amount, setAmount] = useState('');
     const [modal, setModal] = useState(false);
     const [itemData, setItemData] = useState(null);
     const onClickHereToGet = () => {
